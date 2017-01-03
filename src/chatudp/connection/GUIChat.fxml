@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="ancLayout" prefHeight="580.0" prefWidth="448.0" style="-fx-background-color: #CC0000;" xmlns="http://javafx.com/javafx/8.0.101" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chatudp.connection.GUIChatController">
+   <children>
+      <JFXTextArea fx:id="txtOutput" editable="false" focusColor="YELLOW" layoutX="17.0" layoutY="18.0" maxWidth="415.0" minWidth="282.0" prefHeight="460.0" prefWidth="415.0" />
+      <JFXTextArea fx:id="txtInput" focusColor="YELLOW" layoutX="17.0" layoutY="484.0" maxWidth="304.0" minWidth="210.0" prefHeight="71.0" prefWidth="304.0" />
+      <JFXButton fx:id="btnSend" layoutX="327.0" layoutY="484.0" onAction="#onClickSend" prefHeight="71.0" prefWidth="101.0" style="-fx-background-color: #ffff00;" text="SEND" />
+   </children>
+</AnchorPane>
